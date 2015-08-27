@@ -28,6 +28,7 @@ section.feed { height: 100%; overflow-y: scroll; overflow-x: hidden;
 			border-top: none; border-left: none; border-right: none;
 			overflow: visible; background: #212430;
 			}
+
 			section.feed > ul > li > p { display: block; }
 			.date { color: #F2F2F2; font-family: 'avenir-next-bold'; margin-bottom: 5px; font-size: 14pt; }
 			.description { color: #F2F2F2; font-size: 13pt; }
@@ -103,4 +104,21 @@ input[type="password"], button.valid_code {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
+}
+
+/*part tim*/
+
+ 	section.feed > ul > .warpper > .Hearing {
+	background: blue;
+}
+
+ 	section.feed > ul > .warpper > .Markup {
+	background: red;
+}
+ 	section.feed > ul > .warpper > .Meeting {
+	background: orange;
+}
+
+ 	section.feed > ul > .warpper > .undefined {
+	background: pink;
 }
