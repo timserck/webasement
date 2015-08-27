@@ -16,7 +16,8 @@ $.getJSON("https://congress.api.sunlightfoundation.com/hearings?dc=true&apikey=c
 			.append($('<div>')
 				.addClass('warpper')
 				.append($('<li>')
-		  			.addClass('case_li'+' '+this.hearing_type)
+
+		  			.addClass('case_li'+' '+('type_'+this.hearing_type).toLowerCase())
 		  			.append($("<p>", { text : this.occurs_at.replace('T', ' ').replace(/-/g,'/').replace('Z', ' ') })
 		  				.addClass('date')
 		  				)

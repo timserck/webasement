@@ -108,17 +108,17 @@ input[type="password"], button.valid_code {
 
 /*part tim*/
 
- 	section.feed > ul > .warpper > .Hearing {
+ 	section.feed > ul > .warpper > .type_hearing {
 	background: blue;
 }
 
- 	section.feed > ul > .warpper > .Markup {
+ 	section.feed > ul > .warpper > .type_markup {
 	background: red;
 }
- 	section.feed > ul > .warpper > .Meeting {
+ 	section.feed > ul > .warpper > .type_meeting {
 	background: orange;
 }
 
- 	section.feed > ul > .warpper > .undefined {
+ 	section.feed > ul > .warpper > .type_undefined {
 	background: pink;
 }
